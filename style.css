@@ -1,0 +1,26 @@
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+}
+
+
+.header-logo {
+    color: white;
+}
+
+.hero-title {
+    color: #f9faf8;
+    font-weight: extra-bold;
+    font-size: 48px;;
+}
+
+.hero-text,
+.links {
+    color: #e5e7eb;
+    font-size: 18px;
+}
