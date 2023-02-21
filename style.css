@@ -20,7 +20,12 @@ img {
 }
 
 .hero-text,
+.footer,
 .links {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.quote-block {
+    background-color: #e5e7eb;
 }
