@@ -44,12 +44,17 @@ img {
 
 
 button {
+
+    padding: 5px 15px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.head-button {
     background-color: #3882f6;
     color: white;
-    padding: 5px 15px;
+    border-color: #3882f6;
     margin-top: 15px;
-    border-radius: 5px;
-    border-style: none;
 }
 
 
@@ -101,6 +106,8 @@ li {
     font-weight: bolder;
     color: #1F2937;
 }
+
+
 
 .box-container {
     display: flex;
@@ -154,4 +161,42 @@ li {
     justify-content: flex-end;
     font: #1f2937;
     font-weight: bold;
+}
+
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+}
+
+
+.cta-block {
+    display: flex;
+    width: 600px;
+    margin: 100px 180px;
+    padding: 30px 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+}
+
+.signup-button-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+
+.signup-button {
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+
+}
+
+.footer {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
